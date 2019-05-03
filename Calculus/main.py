@@ -1,5 +1,5 @@
 import sys
-from DefiniteIntegral.definite_integral import summarize_multiple_integrals
+from DefiniteIntegral.definite_integral import summarize_multiple_partitions
 
 """
  * 
@@ -16,5 +16,5 @@ from_x = float(sys.argv[1])
 to_x = float(sys.argv[2])
 div_num = int(sys.argv[3])
 
-sum = summarize_multiple_integrals(example_math_func1, from_x, to_x, div_num)
+sum = summarize_multiple_partitions(example_math_func1, from_x, to_x, div_num)
 print(str(sum))
