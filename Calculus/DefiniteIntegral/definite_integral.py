@@ -1,3 +1,8 @@
+"""
+ * 
+ *  Coded by Rickiarty @ GitHub 
+ * 
+"""
 
 def eval_single_interval(math_func, from_x, to_x):
     if from_x > to_x:
