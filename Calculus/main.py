@@ -1,6 +1,12 @@
 import sys
 from DefiniteIntegral.definite_integral import summarize_multiple_integrals
 
+"""
+ * 
+ *  Coded by Rickiarty @ GitHub 
+ * 
+"""
+
 def example_math_func1(x):
     x = float(x)
     y = 3 * (x**2)
